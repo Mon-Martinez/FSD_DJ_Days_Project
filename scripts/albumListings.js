@@ -15,11 +15,11 @@ let playMusicMessage = "Let's start playing music!";
 let html = '';
 
 for (let i = 0; i < albums.length; i++){
-    html += '
-        <h2>Album Name</h2>
-        <h3>Album Artist or Group</h3>
-        <p>Genre: Album Genre</p>
-        <img src="img/demopic.jpg" alt="Demo Picture">
-    ';
+    html += `
+        <h2>${albums[i].name}</h2>
+        <h3>${albums[i].artist}</h3>
+        <p>Genre: ${albums[i].genre}</p>
+        <img src="${albums[i].artwork}" alt="Album art for ${albums[i].name}">
+    `;
 }
 document.querySelector('main').insertAdjacentHTML('beforeend', html);
