@@ -11,60 +11,60 @@ let albums = [
     name: "RENAISSANCE",
     artist: "Beyonce",
     genre: "Dance Pop",
-    artwork: "img/renaissance.jpg"
+    artwork: "img/1.png"
   },
   {
     name: "Special",
     artist: "Lizzo",
     genre: "Funk-Pop Hip Hop",
-    artwork: "img/special.jpg"
+    artwork: "img/2.png"
   },
   {
     name: "Blonde",
     artist: "Frank Ocean",
     genre: "Avant-gard soul",
-    artwork: "img/blonde.jpg"
+    artwork: "img/3.jpeg"
   },
   {
     name: "30",
     artist: "Adele",
     genre: "Jazz Pop",
-    artwork: "img/thirty.jpg"
+    artwork: "img/4.png"
   },
   {
     name: "God Save the Animals",
     artist: "Alex G",
     genre: "Alternative Indie",
-    artwork: "img/saveanimals.jpg"
+    artwork: "img/5.png"
   },
   {
     name: "The Dutchess",
     artist: "Fergie",
     genre: "Pop R&B",
-    artwork: "img/dutchess.jpg"
+    artwork: "img/6.png"
   },
   {
     name: "Beyondless",
     artist: "Iceage",
     genre: "Post-Punk",
-    artwork: "img/beyondless.jpg"
+    artwork: "img/7.jpeg"
   },
   {
     name: "Interior Person",
     artist: "Samantha Sidley",
     genre: "Jazz",
-    artwork: "img/interior.jpg"
+    artwork: "img/8.jpeg"
   },
   {
     name: "Tell Me How You Really Feel",
     artist: "Courtney Barnett",
     genre: "Alternative Indie",
-    artwork: "img/tellme.jpg"
+    artwork: "img/9.jpeg"
   },
   {
     name: "Con Todo El Mundo",
     artist: "Khruangbin",
     genre: "Psychedelic Surf Rock",
-    artwork: "img/elmundo.jpg"
+    artwork: "img/10.png"
   }
 ]
