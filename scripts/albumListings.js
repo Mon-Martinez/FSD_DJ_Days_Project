@@ -7,10 +7,19 @@
 
 //The message variables have also been included
 
-let html = '';
 let moreAlbumsMessage = "You need more albums!";
 let playMusicMessage = "Let's start playing music!";
 
 // insert your code here
 
+let html = '';
+
+for (let i = 0; i < albums.length; i++){
+    html += '
+        <h2>Album Name</h2>
+        <h3>Album Artist or Group</h3>
+        <p>Genre: Album Genre</p>
+        <img src="img/demopic.jpg" alt="Demo Picture">
+    ';
+}
 document.querySelector('main').insertAdjacentHTML('beforeend', html);
