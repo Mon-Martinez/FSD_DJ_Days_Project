@@ -8,34 +8,34 @@
 
 let albums = [
   {
-    name: "1",
-    artist: "",
-    genre: "",
-    artwork: "img/demopic.jpg"
+    name: "RENAISSANCE",
+    artist: "Beyonce",
+    genre: "Dance Pop",
+    artwork: "img/renaissance.jpg"
   },
   {
-    name: "2",
-    artist: "",
-    genre: "",
-    artwork: "img/demopic.jpg"
+    name: "Special",
+    artist: "Lizzo",
+    genre: "Funk-Pop Hip Hop",
+    artwork: "img/special.jpg"
   },
   {
-    name: "3",
-    artist: "",
-    genre: "",
-    artwork: "img/demopic.jpg"
+    name: "Blonde",
+    artist: "Frank Ocean",
+    genre: "Avant-gard soul",
+    artwork: "img/blonde.jpg"
   },
   {
-    name: "4",
-    artist: "",
-    genre: "",
-    artwork: "img/demopic.jpg"
+    name: "30",
+    artist: "Adele",
+    genre: "Jazz Pop",
+    artwork: "img/thirty.jpg"
   },
   {
-    name: "5",
-    artist: "",
-    genre: "",
-    artwork: "img/demopic.jpg"
+    name: "God Save the Animals",
+    artist: "Alex G",
+    genre: "Alternative Indie",
+    artwork: "img/saveanimals.jpg"
   },
   {
     name: "6",
