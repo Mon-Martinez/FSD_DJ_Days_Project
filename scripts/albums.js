@@ -38,33 +38,33 @@ let albums = [
     artwork: "img/saveanimals.jpg"
   },
   {
-    name: "6",
-    artist: "",
-    genre: "",
-    artwork: "img/demopic.jpg"
+    name: "The Dutchess",
+    artist: "Fergie",
+    genre: "Pop R&B",
+    artwork: "img/dutchess.jpg"
   },
   {
-    name: "7",
-    artist: "",
-    genre: "",
-    artwork: "img/demopic.jpg"
+    name: "Beyondless",
+    artist: "Iceage",
+    genre: "Post-Punk",
+    artwork: "img/beyondless.jpg"
   },
   {
-    name: "8",
-    artist: "",
-    genre: "",
-    artwork: "img/demopic.jpg"
+    name: "Interior Person",
+    artist: "Samantha Sidley",
+    genre: "Jazz",
+    artwork: "img/interior.jpg"
   },
   {
-    name: "9",
-    artist: "",
-    genre: "",
-    artwork: "img/demopic.jpg"
+    name: "Tell Me How You Really Feel",
+    artist: "Courtney Barnett",
+    genre: "Alternative Indie",
+    artwork: "img/tellme.jpg"
   },
   {
-    name: "10",
-    artist: "",
-    genre: "",
-    artwork: "img/demopic.jpg"
+    name: "Con Todo El Mundo",
+    artist: "Khruangbin",
+    genre: "Psychedelic Surf Rock",
+    artwork: "img/elmundo.jpg"
   }
 ]
