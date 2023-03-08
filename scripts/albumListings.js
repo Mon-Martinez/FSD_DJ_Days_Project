@@ -22,4 +22,13 @@ for (let i = 0; i < albums.length; i++){
         <img src="${albums[i].artwork}" alt="Album art for ${albums[i].name}">
     `;
 }
+
+// Stuck & don't know what to do from here
+let playMusicMessage = "Let's start playing music!";
+
+do {
+    <h4>${playMusicMessage}</h4>;
+}
+while (albums.length < 10);
+
 document.querySelector('main').insertAdjacentHTML('beforeend', html);
