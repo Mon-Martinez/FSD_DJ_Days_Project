@@ -29,3 +29,6 @@ if (albums.length < 10){
 }
 
 document.querySelector('main').insertAdjacentHTML('beforeend', html);
+
+// Project is complete
+// All aspects of the if else statment were produced during the in class demo
