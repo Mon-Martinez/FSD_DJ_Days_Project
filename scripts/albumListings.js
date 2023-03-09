@@ -6,12 +6,6 @@
 // as well as the code to produce whatever content the variable "html" has
 
 //The message variables have also been included
-
-let moreAlbumsMessage = "You need more albums!";
-let playMusicMessage = "Let's start playing music!";
-
-// insert your code here
-
 let html = '';
 
 for (let i = 0; i < albums.length; i++){
@@ -23,12 +17,15 @@ for (let i = 0; i < albums.length; i++){
     `;
 }
 
-// Stuck & don't know what to do from here
+let moreAlbumsMessage = "You need more albums!";
 let playMusicMessage = "Let's start playing music!";
 
-do {
-    <h4>${playMusicMessage}</h4>;
+if (albums.length < 10){
+    document.querySelector('header').insertAdjacentHTML('beforeend', `<h4>${moreAlbumsMessage}</h4>`);
+    console.log ('There are less than 10 albums');
+} else{
+    document.querySelector('header').insertAdjacentHTML('beforeend', `<h4>${playMusicMessage}</h4>`);
+    console.log ('There are 10 albums or more');
 }
-while (albums.length < 10);
 
 document.querySelector('main').insertAdjacentHTML('beforeend', html);
