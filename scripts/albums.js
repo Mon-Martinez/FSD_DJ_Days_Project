@@ -30,6 +30,7 @@ let albums = [
     artist: "Adele",
     genre: "Jazz Pop",
     artwork: "imgs/4.png"
+    topThree: "True"
   },
   {
     name: "God Save the Animals",
