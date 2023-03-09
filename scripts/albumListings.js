@@ -28,6 +28,13 @@ if (albums.length < 10){
     console.log ('There are 10 albums or more');
 }
 
+// Trying to make a boolean conditional statement
+let topThree = true;
+if (topThree = true) {
+    document.querySelector('main').insertAdjacentHTML('beforeend', <p>This is one of my Top Three Albums!</p>);
+    console.log ('I am showing my Top Three Albums');
+}
+
 document.querySelector('main').insertAdjacentHTML('beforeend', html);
 
 // Project is complete
