@@ -17,6 +17,7 @@ for (let i = 0; i < albums.length; i++){
     `;
     let topThree = albums[i].topThree;
     if (topThree) {
+        console.log('You are listing some Top Three albums');
         html += `
         <p class ="topThree">${topThreeMessage}</p>
         `;
