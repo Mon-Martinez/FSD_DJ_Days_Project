@@ -57,3 +57,23 @@
       width: 500px;
     }
   }
+
+  .name{
+    font-family: 'Courier New', Courier, monospace;
+    color:#03dbfc;
+  }
+
+  .artist{
+    text-decoration: underline wavy;
+    color: #fca103;
+  }
+
+  .genre{
+    font-style: oblique;
+    color:#fc03ca;
+  }
+
+  .topThree{
+    text-shadow: 2px 2px #39ff14;
+    color: #fc03ca
+  }

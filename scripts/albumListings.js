@@ -11,14 +11,14 @@ let topThreeMessage ="This is one of my Top Three albums!";
 
 for (let i = 0; i < albums.length; i++){
     html += `
-        <h2>${albums[i].name}</h2>
-        <h3>${albums[i].artist}</h3>
-        <p>Genre: ${albums[i].genre}</p>
+        <h2 class ="name">${albums[i].name}</h2>
+        <h3 class ="artist">${albums[i].artist}</h3>
+        <p class ="genre">Genre: ${albums[i].genre}</p>
     `;
     let topThree = albums[i].topThree;
     if (topThree) {
         html += `
-        <p>${topThreeMessage}</p>
+        <p class ="topThree">${topThreeMessage}</p>
         `;
     };
     html += `
